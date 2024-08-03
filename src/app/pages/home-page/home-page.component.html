@@ -1,0 +1,41 @@
+<div class="min-h-[100vh] bg-[#00CC75] bg-home-page py-16">
+  <div class="mt-12 flex justify-center">
+    <img src="assets/logo/logo_large.png" class="w-[300px]" />
+  </div>
+  <div class="mt-4 flex justify-center">
+    <img
+      src="assets/images/screenshot_top.png"
+      class="w-[90%] max-w-[1350px]"
+    />
+  </div>
+  <div
+    class="py-[90px] flex flex-col items-center justify-center bg-[#F5F5F5] bg-form-home-page bg-contain bg-no-repeat bg-center"
+  >
+    <p class="max-w-[730px] text-center text-[17px]">
+      Jukebox is a social media player that lets you share music across
+      limitless people, devices and speakers, whether they're in the same room
+      or halfway across the world. Create & share your Jukebox now:
+    </p>
+    <div class="mt-2">
+      <form class="flex input-room-name relative">
+        <input
+          placeholder="enter name"
+          class="input-room-name-input pl-[137px] max-w-[500px] w-[full] py-[5px] border-solid border border-[rgba(0, 0, 0, 0.2)] rounded-tl-[3px] rounded-bl-[3px] outline-none"
+        />
+        <button
+          type="submit"
+          class="bg-[#00CC75] px-[20px] text-white font-bold cursor-pointer"
+          [disabled]="isDisabled.test"
+        >
+          CREATE
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="flex justify-center">
+    <img
+      src="assets/images/screenshot_bottom.png"
+      class="w-[90%] max-w-[1350px]"
+    />
+  </div>
+</div>

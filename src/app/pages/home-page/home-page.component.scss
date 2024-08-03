@@ -1,0 +1,18 @@
+.home-page {
+    min-height: 100vh;
+    background: #00CC75
+}
+
+.input-room-name::before {
+    content: "jukebox.today/";
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 5px;
+    font-weight: bold;
+    left: 17px;
+}
+
+.input-room-name-input::placeholder {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8)
+}
